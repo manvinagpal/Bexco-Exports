@@ -1,0 +1,19 @@
+.main
+{
+    background-image:url('image.jpg');
+    background-color:#0f1e3e;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Georgia, 'Times New Roman', Times, serif";
+    color:white;
+}
+.top{
+    background-color:#00ccff;
+    color:white;
+    padding: 40px 40px 40px 40px;
+    margin-right: 200px;
+    margin-left:200px;
+    margin-top:200px;
+    
+    
+}

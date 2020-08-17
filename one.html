@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            </script>
+        <title>
+            Bexco Exports
+        </title>
+    </head>
+    <body class="main">
+        <header><div class="topnav">
+            <ul>
+                <li><a href="home.html">
+                    HOME
+                    </a>
+                </li>
+                <li><a href="about.html">
+                    ABOUT US
+                </a>
+                </li>
+                <li><a href="contact.html">
+                    CONTACT US
+                    </a>
+                </li>
+                <li>
+                    <a href="policy.html">
+                        EXPORT POLICY
+                    </a>
+                </li>
+                <li><div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">PRODUCTS</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="link1.html">Engineering Equipments</a>
+                      <a href="link2.html">Laboratory Equipment</a>
+                      <a href="link3.html">Pharmacy Equipment</a>
+                      <a href="link4.html">Lab Plasticware and Glassware</a>
+                    </div>
+                </div>
+                
+                </li>
+                
+                <li> 
+                    <input type="text" placeholder="Search..">
+                </li>
+            </ul>
+        </div>
+        </header> 
+        <div class="contentimg">
+            <img class="mainimage" src="BEXCO.png" height="300px" width="400px" align="left">
+            <div> The company was established to understand the process and requirements of Scientific Instruments as the most promising Manufacturer, Supplier and Exporter. Our industry leading position shows an affirmation of worth and authenticity of our products that are produced from modern technology and find its purposes in research and analysis needs at hospitals, educational institutes, pharmaceutical industries, laboratories and engineering units for precise elemental analysis.<br>
+            </div>
+        </div>
+   
+    <! <section class="text">
+       
+ </section> 
+ <! <img src="1.jpg" height="200px" width="400px" align="right"> 
+ <! <img src="2.jpg" height="200px" width="400px" align="right"> 
+ <! <img src="3.jpg" height="200px" width="400px" align="right"> 
+              
+        <p class="footer"> 
+                    </p>
+
+    </body>
+</html>

@@ -1,0 +1,27 @@
+.main{
+    background-image:url('image.jpg');
+    background-color:#0f1e3e;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Georgia, 'Times New Roman', Times, serif";
+    color:white;
+}
+.top{
+background-color:#00ccff;
+margin-left:800px;
+margin-right:100px;
+margin-top:80px;
+align=right;
+padding: 40px 40px 40px 40px;
+font-size: larger;
+font-family: "Georgia";
+font-size: x-large;
+}
+.buttonone{
+    background-color:#00ccff;
+    color:black;
+
+}
+.heading{
+    color:black;
+}
